@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Music tool</title>
+</head>
+<body>
+    <div class="player">
+        <div class="img-container">
+            <img src="img/jacinto-1.jpg" alt="jacinto">
+        </div>
+        <h2 id="title">Electric Chill Machine  </h2>
+        <h3 id="artist">jacinto Desing</h3>
+        <audio src="music/jacinto-1.mp3"></audio>
+
+        <!-- bar -->
+        <div class="music-bar" id="music_bar">
+            <div class="progress" id="progress">
+                <div class="time-wrapper">
+                    <span id="current-time">0:00</span>
+                    <span id="duration">3:39</span>
+
+                </div>
+            </div>
+        </div>
+        <!-- play btn -->
+        <div class="play-control">
+            <i class="fas fa-backward" id="prev" title="previous"></i>
+            <i class="fas fa-play main-btn" id="play" title="play"></i>
+            <i class="fas fa-forward" id="next" title="next"></i>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
